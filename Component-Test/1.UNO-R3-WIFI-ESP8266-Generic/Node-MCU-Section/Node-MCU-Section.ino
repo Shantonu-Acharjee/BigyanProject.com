@@ -11,7 +11,7 @@
 #include "ESP8266WiFi.h"
 
 // WiFi parameters to be configured
-const char* ssid = "hi"; // Write here your router's username
+const char* ssid = "hh"; // Write here your router's username
 const char* password = "12345678"; // Write here your router's passward
 
 void setup(void)
