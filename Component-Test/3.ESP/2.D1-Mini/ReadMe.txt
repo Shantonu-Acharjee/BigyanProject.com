@@ -1,0 +1,1 @@
+Board Type Name :- LOLIN(WEMOS) D1 R2 & mini
