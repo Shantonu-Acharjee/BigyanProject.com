@@ -11,23 +11,23 @@ void setup()
   //Begin serial communication with Arduino and SIM800L
   mySerial.begin(9600);
 
-  Serial.println("Initializing...");
+  Serial.println("Initializing..."); 
   delay(1000);
 
   mySerial.println("AT"); //Once the handshake test is successful, it will back to OK
   updateSerial();
-  mySerial.println("AT+CSQ"); //Signal quality test, value range is 0-31 , 31 is the best
-  updateSerial();
-  mySerial.println("AT+CCID"); //Read SIM information to confirm whether the SIM is plugged
-  updateSerial();
-  mySerial.println("AT+CREG?"); //Check whether it has registered in the network
-  updateSerial();
 
+  mySerial.println("AT+CMGF=1"); // Configuring TEXT mode
+  updateSerial();
+ mySerial.println("AT+CMGS=\"+8801789333514\"");//change ZZ with country code and xxxxxxxxxxx with phone number to sms
+  updateSerial();
+  mySerial.print("Last Minute Engineers | lastminuteengineers.com"); //text content
+  updateSerial();
+  mySerial.write(26);
 }
 
 void loop()
 {
-  updateSerial();
 }
 
 void updateSerial()
