@@ -1,5 +1,5 @@
 
-const int irSensorPin = A3;  // IR sensor connected to analog pin A0
+const int irSensorPin = A0;  // IR sensor connected to analog pin A0
 int irValue = 0;  // Variable to store the analog value
 
 void setup() {
