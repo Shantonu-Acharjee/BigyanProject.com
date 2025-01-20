@@ -16,5 +16,5 @@ void loop() {
   Serial.println(irValue);
   
   // Add a small delay between readings
-  delay(500);  // 500 ms delay between readings
+  delay(300);  // 500 ms delay between readings
 }
