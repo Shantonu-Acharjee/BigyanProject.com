@@ -1,5 +1,5 @@
-const int trigPin = A1;
-const int echoPin = A0;
+const int trigPin = 3;
+const int echoPin = 5;
 // defines variables
 long duration;
 int distance;

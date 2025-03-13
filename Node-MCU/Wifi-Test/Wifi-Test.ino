@@ -2,7 +2,7 @@
 
 #include <ESP8266WiFi.h>
 
-const char* ssid = "111111";      // Replace with your Wi-Fi SSID
+const char* ssid = "shantonu";      // Replace with your Wi-Fi SSID
 const char* password = "12345678";  // Replace with your Wi-Fi password
 
 void setup() {
