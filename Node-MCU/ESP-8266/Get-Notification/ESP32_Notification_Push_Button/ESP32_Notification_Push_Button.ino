@@ -10,20 +10,29 @@
  *  Preferences--> Aditional boards Manager URLs : 
  *  For ESP32:
  *  https://dl.espressif.com/dl/package_esp32_index.json
+
+
+ /*
+********* ESP8266 (NodeMCU Lolin V3) 30Pin ************
+
+1.Install "CH341SER.EXE" Driver
+2.File > Preference > Add This URL "http://arduino.esp8266.com/stable/package_esp8266com_index.json" to Additional Board Manager URLs.
+3.Tools > Board > Board Manager > Install "esp8266" by ESP8266 Comunity
+4.Tools > Board > esp8266 > NodeMCU 1.0 (ESP-12E Module).
+*/
  *  
  *  *********************************************************************************/
 
 
 /* Fill-in your Template ID (only if using Blynk.Cloud) */
 
-#define BLYNK_TEMPLATE_ID "TMPL3u97bDpbM"
-#define BLYNK_TEMPLATE_NAME "Notification"
-#define BLYNK_AUTH_TOKEN "K7szroDXXjYyfq4pnLZJHq8FIJrQyTj1"
+#define BLYNK_TEMPLATE_ID "TMPL3zjaj1x80"
+#define BLYNK_TEMPLATE_NAME "Smart Door"
+#define BLYNK_AUTH_TOKEN "z-cPWIHXgyP7kxorJPypoARI7A4MdXRK"
 
 
 
-#define BLYNK_TEMPLATE_NAME "Get Alart"
-#define BLYNK_AUTH_TOKEN "6nM-Nwd1jaFtANQPXluRCxQDt96hJHNH"
+
 
 #define BLYNK_PRINT Serial
 
